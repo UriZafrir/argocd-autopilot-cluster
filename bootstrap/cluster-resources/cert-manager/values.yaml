@@ -5,7 +5,7 @@
 #   namespace: cert-manager
 
 # Enable CRD installation
-installCRDs: true
+#installCRDs: true
 
 # # Configure the Cert-Manager issuer
 # # This is just an example, adjust according to your needs

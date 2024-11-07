@@ -3,12 +3,12 @@ kind: Kustomization
 
 helmCharts:
 - name: cert-manager
-  version: 1.16.1
-  repo: https://charts.jetstack.io
+  version: 4.12.0-beta.0
+  repo: https://kubernetes.github.io/ingress-nginx
   valuesFile: values.yaml
-  namespace: cert-manager
-  releaseName: cert-manager
+  namespace: ingress-nginx
+  releaseName: ingress-nginx
   includeCRDs: true
 
 resources:
-- cert-manager-ns.yaml
+- ingress-nginx-ns.yaml

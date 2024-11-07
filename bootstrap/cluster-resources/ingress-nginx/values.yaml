@@ -1,0 +1,3 @@
+# Enable CRD installation
+#installCRDs: true
+
